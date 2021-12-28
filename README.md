@@ -11,10 +11,13 @@ Yous should now have a database with random products.
 
 Available routes: 
 *adding /api/ is required for laravel api routes using default settings
+*the base path localhost may differ depending where you run the server
 
-http://localhost/api/products
-http://localhost/api/show-product/{Product}  -> where Product is the product id;
-http://localhost/api/update-product/{Product}  -> where Product is the product id;
-http://localhost/api/delete-product/{Product}  -> where Product is the product id;
-http://localhost/api/create-product
+1. http://localhost/api/create-product
+2. http://localhost/api/products
+3. http://localhost/api/show-product/{Product}  -> where Product is the product id;
+4. http://localhost/api/update-product/{Product}  -> where Product is the product id;
+5. http://localhost/api/delete-product/{Product}  -> where Product is the product id;
+
+
 
